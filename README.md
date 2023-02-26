@@ -12,6 +12,7 @@ python3 ./initial_users_by_db.py
 ```
 Заполнить файл Settings.py:
 
+```
 DB_HOST = "" 
 DB_NAME = "" # name your DB
 DB_USER_NAME = "" # name user your DB
@@ -19,6 +20,7 @@ DB_USER_PASSWORD = "" # pas your DB
 
 
 Secret = '' # openssl rand -hex 32
+```
 
 Миграции:
 
